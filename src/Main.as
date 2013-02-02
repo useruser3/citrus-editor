@@ -11,7 +11,7 @@ package
 	{
 		public function Main()
 		{
-			
+
 			setUpStarling(true);
 			gameData = new MyGameData;
 			loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onError)
@@ -42,7 +42,8 @@ package
 		
 		public function onError(e:UncaughtErrorEvent):void
 		{
-			trace(e.error + "Numb Nuts");	
+			//Trolling myself
+			trace(e.error + " Numb Nuts");	
 		}
 	
 	}

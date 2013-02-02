@@ -1,6 +1,7 @@
 package gamecore
 {
 	import flash.events.IOErrorEvent;
+	import starling.textures.Texture;
 	
 	public class Assets 
 	
@@ -10,6 +11,7 @@ package gamecore
 		
 		[Embed(source="../../bin/embed/assets/Braid.xml",mimeType="application/octet-stream")]
 		public static const braidXML:Class;
+		
 	/**
 	 * 
 	 * @param	e
