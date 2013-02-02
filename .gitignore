@@ -1,6 +1,6 @@
-
 bin/CitrusEditor.swf
 
 *.old
+*.DS_Store
 
 obj/CitrusEditorConfig.old
